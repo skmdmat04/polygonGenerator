@@ -1,51 +1,52 @@
-/* navigation */
-#navbar{
-    flex-direction: column;
-}
- #navbar ul li a{
-    font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
-}
-/* home section */
-#home{
-height: 370px;
-padding: 3px 28px;
-}
-#home::before{
-    height: 480px;
-}
-#home p{
-    font: 13px;
-}
-/* services section */
-#services{
-    flex-direction: column;
-}
-#services .box{
-    padding: 14px;
-    margin: 2px 0px;
-    margin-bottom: 20px;
-}
-/* client section */
-#clients{
-    flex-wrap: wrap;
-}
-#clients img{
-    width: 66px;
-    padding: 6px ;
-    height: auto;
-}
-/* contact us section */
-#contact-box form{
-width: 80%;
-}
-/* utility classes */
-.h-primary{
-    font-size: 26px;
-}
-.btn{
-    font-size: 13px;
-    padding: 4px 8px;
-}
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wholecontainer{
+    width: 100%;
+    background-color: rgb(107, 93, 93);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+}
+ .container{
+
+    background-color: rgb(156, 231, 206);
+     border: 2px solid gray; 
+     width: 100%;
+ }
+h1{
+     padding: 10px; 
+     background-color: rgb(53, 35, 35);
+    color:rgb(226, 19, 19) ;
+    text-align: center;
+    font-size: 3rem; 
+}
+.polycontaine{
+    display: grid;
+    grid-template-columns: repeat(1px, 100);
+    grid-template-rows: repeat(1px, 100);
+} 
+form{
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    place-items: center;
+}
+.sides{
+    padding: 7px;
+    font-size: 1.2rem;
+    background-color: rgba(20, 20, 20, 0.911);
+    color: rgb(240, 226, 236);
+    border-radius: 10px ;
+    margin: 10px 0px;
+}
+.generate{
+    padding: 7px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(166, 179, 174);
+    color: rgb(197, 27, 27);
+}
