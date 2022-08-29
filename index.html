@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polygon</title>
+    <link rel="stylesheet" href="polygonm.css">
+</head>
+<style>
+  
+</style>
+<body>
+    <h1>Polygon Generator</h1>
+   <div class="wholecontainer">
+    <form>
+        <label>Enter Number of Sides :</label>
+        <input type="number" class="sides" value=""/>
+        <input type="button" class="generate" value="Gennerate"/>
+     </form>
+     <div class="container">
+        <svg class="svgbox" viewBox="0 0 100 100" stroke="#111" >
+          <polygon points="" class="polygon" fill="yellow" ></polygon>  
+        </svg>
+     </div>
+   </div>
+ <script src="./polygon.js"></script>
+</body>
+</html>
